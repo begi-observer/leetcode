@@ -13,14 +13,9 @@ class Solution {
             {
                 if(str.charAt(str.length()-1)=='(')
                 {
-                    if(str.length()==1)
-                    {
-                        str="";
-                    }
-                    else
-                    {
+                    
                         str = str.substring(0,str.length()-1);
-                    }    
+                     
                     
                 }
                 else
@@ -32,14 +27,10 @@ class Solution {
             {
                 if(str.charAt(str.length()-1)=='{')
                 {
-                    if(str.length()==1)
-                    {
-                        str="";
-                    }
-                    else
-                    {
+                    
+                    
                         str = str.substring(0,str.length()-1);
-                    }          
+                             
                 }
                 else
                 {
@@ -50,14 +41,10 @@ class Solution {
             {
                 if(str.charAt(str.length()-1)=='[')
                 {
-                    if(str.length()==1)
-                    {
-                        str="";
-                    }
-                    else
-                    {
+                    
+                    
                         str= str.substring(0,str.length()-1);
-                    }
+                    
                 }
                 else
                 {
